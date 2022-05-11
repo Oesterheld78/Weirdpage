@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Weird Game</title>
+  <link rel="stylesheet" href="./style5.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+  Changelog:
+
+  6/12/2015:
+    - Added a check to ensure the quotes array is re-shuffled when the quotes run out (currently this happens after the fourth consecutive round).
+    - Added a check to ensure that each round has an even distribution of Prayer and Slayer quotes. Previously, in some (statistically unlikely) situations, a round could be composed nearly entirely (or in 0.2% of cases, entirely) of only one type of quote.
+    - Fixed a bug in the shuffling code that was causing only Prayer quotes to be picked. This was making the game far less challenging.
+    - Fixed an off-by-one error that was causing the score to be recorded incorrectly.
+
+  22/11/2015:
+    - Added restart option when the game ends. 
+    - Rewrote the quote selection code to prevent the same quote from appearing in a subsequent game (provided the page is not reloaded).
+
+  18/11/2015:
+    - Switched image hosts since Imgur was causing issues loading the background images.
+    - Fixed a minor CSS bug I introduced yesterday that was messing with the positioning of the background images.
+
+  17/11/2015: 
+    - Added four new quotes - two from Slayer, two from the Old Testament.
+    - Made some minor alignment/scaling changes to improve rendering on mobile. Still best viewed in landscape.
+
+  01/10/2015: 
+    - Substituted in an alternate translation of Qur’an 2:191 for added brutality.
+
+  Open issues:
+
+    - Mobile rendering is better, but still not great. I'll see if I can fix the scaling.
+-->
+
+<div id="instructions">
+  <h1>Prayer or Slayer</h1>
+  <p>
+    Мета проста: виберіть, чи є цитата молитвою (з Біблії та Корану) чи текстами улюбленої всіма треш-метал-групи, схильної до сатанізму. Кожна гра має 10 раундів, і щоб зробити це складнішим, деякі римовані слова замінено синонімами.
+  </p>
+</div>
+<p id="score">Score: 0/0</p>
+<div id="options">
+  <a id="prayer" class="option" href="#">Prayer</a>
+  <a id="slayer" class="option" href="#">Slayer</a>
+</div>
+<p id="quote"> </p>
+<p id="source"></p>
+<a id="next" href="#">Next</a>
+<div id="acknowledgements">
+  <p>
+    Thanks for playing Prayer or Slayer, I hope you found it entertaining and/or somewhat disturbing. You can find more of my work <a href="https://dperrysvendsen.wordpress.com/">here</a>.
+  <p></p>
+    - Dane
+  </p>
+  <h1>Acknowledgements</h1>
+  <p>
+    This game is based on a subreddit of the same name, which came about as the result of a thread on the topic of <a href="https://www.reddit.com/r/AskReddit/comments/3ar36r/whats_the_most_metal_bible_verse/csf82n8">the most metal bible verses</a>. Amongst those who deserve some credit are the mods of <a href="https://www.reddit.com/r/PrayerOrSlayer/">/r/PrayerOrSlayer</a> - liljakeyplzandthnx, dansaube and Vivitarbebb - as well as all those who've contributed brutal Slayer lyrics and Old Testament verses.
+  </p>
+</div>
+<!-- partial -->
+  <script  src="./script5.js"></script>
+
+</body>
+</html>

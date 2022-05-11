@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<footer id="Contact">
+	<div class="container">
+		<div class="row">
+			<h2>CONTACT</h2>
+			<form role="form" id="feedbackForm" data-toggle="validator" data-disable="false">
+				<div class="form-group">
+					<label class="control-label" for="name">Name <span>*</span></label>
+					<div class="input-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required/>
+						<span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+					</div>
+					<span class="help-block" style="display: none;">Please enter your name.</span>
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="email">Reason for Contact <span>*</span></label>
+					<select name="reason" class="form-control" required>
+                <option value="General Inquiry">Service Information</option>
+                <option value="Place Order">Project Proposal</option>
+                <option value="Report Issue">Report Issue</option>
+              </select>
+					<span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="email">Email <span>*</span></label>
+					<div class="input-group">
+						<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required/>
+						<span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+					</div>
+					<span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="message">Message <span>*</span></label>
+					<div class="input-group">
+						<textarea rows="5" cols="30" class="form-control" id="message" name="message" placeholder="Enter your message" required></textarea>
+						<span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+					</div>
+					<span class="help-block" style="display: none;">Please enter a message.</span>
+				</div>
+				<div class="form-group">
+					<div class="g-recaptcha" data-sitekey="your_site_key"></div>
+					<span class="help-block" style="display: none;">Please check that you are not a robot.</span>
+				</div>
+				<span class="help-block" style="display: none;">Please enter a the security code.</span>
+				<button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" data-loading-text="Sending..." style="display: block; margin-top: 10px;">Send Feedback</button>
+			</form>
+			<br>
+			
+			
+		<!-- end row contact -->
+	</div>
+	<!-- end container footer section -->
+</footer>
+<!-- end footer -->
+
+<!-- to check http://www.nfriedly.com/techblog/2009/11/how-to-build-a-spam-free-contact-forms-without-captchas/ -->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

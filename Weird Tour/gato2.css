@@ -1,0 +1,80 @@
+* Global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background: #0B486B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-size: 16px;
+}
+
+.button {
+  background: #0B486B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button{
+  border-radius: 12px; ;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #0c0c0c; /* Green */
+  color: rgb(238, 5, 5);
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+
+}
+table {
+  /* Para centrar usamos "auto" en la alineación horizontal */
+  margin: 0 auto;
+  /*Lo siguiente es para los bordes*/
+  border-collapse: collapse;
+}
+
+
+th, td {
+  background-color: #000000, #ec1919;
+}
+th, td {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+th, td {
+  border-color: #96D4D4;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+td{
+  font-style: oblique;
+  color: rgb(243, 248, 248);
+}
+
+[class*="col-"] {
+  width: 100%;
+}

@@ -1,0 +1,123 @@
+body{
+  font-family: Helvetica;
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-size: 25px;
+}
+
+div#instructions{
+  min-width: 300px;
+  max-width: 600px;
+  margin: 30px auto 0px auto;
+  padding: 0px 50px;
+}
+
+div#instructions h1{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+div#instructions p{
+  min-width: 200px;
+  margin: 0px auto;
+  font-size: 20px;
+  text-align: justify;
+}
+
+div#options{
+  min-width: 420px;
+  max-width: 700px;
+  width: 90%;
+  margin: 50px auto;
+}
+
+a.option{
+  display: inline-block;
+  min-width: 180px;
+  width: 45%;
+  height: 80px;
+  margin:  0px 1%;
+  padding: 20px 0px 0px 0px;
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  background-size: 100%;
+  background-position: 0px 40%;
+}
+
+a.option:hover{
+  background-color: transparent;
+  color: transparent;
+}
+
+/* Hotlinking these from a no-name image host since Imgur wouldn't cooperate */
+
+a#slayer:hover{
+    /* The cover art from World Painted Blood */
+    /* background-image: url("https://i.imgur.com/tibOw68.png"); */
+  background-image: url("https://s18.postimg.org/qx65jiq1l/tib_Ow68.png");
+}
+
+a#prayer:hover{
+    /* Some sort of stock artwork I lifted from a church's website */
+    /* background-image: url("https://i.imgur.com/xmIiOeg.png"); */
+  background-image: url("https://s18.postimg.org/8gbqspa3d/xm_Ii_Oeg.png");
+}
+
+p#quote{
+  min-width: 380px;
+  max-width: 700px;
+  font-size: 30px;
+  font-weight: bold;
+  margin:  0px auto;
+  padding: 0px 20px;
+}
+
+p#source{
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+a#next{
+  display: block;
+  min-width: 150px;
+  max-width: 300px;
+  height: 40px;
+  margin:  20px auto 50px auto;
+  padding: 10px 0px 0px 0px;
+  color: white;
+  background-color: black;
+  border: 5px solid white;
+  text-align: center;
+  text-decoration: none;
+}
+
+a#next:hover{
+  color: black;
+  background-color: white;
+}
+
+div#acknowledgements{  
+  width: 600px;
+  margin: 0px auto;
+  font-size: 20px;
+  text-align: justify;
+}
+
+div#acknowledgements h1{
+  font-size: 22px;
+}
+
+div#acknowledgements p a{
+  text-decoration: none;
+  color: gray;
+}
+
+div#acknowledgements p a:hover{
+  color: white;
+}

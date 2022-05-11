@@ -1,0 +1,62 @@
+body{
+  background-image:linear-gradient(black,blue,#7f03fc,orange,yellow,green);
+}
+.parallax{
+  background-image:url(https://lp-cms-production.imgix.net/features/2019/05/Palawan-travel-936549056388.jpg);
+  height:540px;
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin:auto;
+}
+
+.parallax-1{
+  background-image:url(https://static2.thetravelimages.com/wordpress/wp-content/uploads/2020/08/Untitled-design-31.jpg);
+  height:560px;
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-2{
+  background-image:url(https://glampinghub.com/blog/wp-content/uploads/2019/05/amazing-beaches-usa.jpg);
+  background-size:100%;
+  height:550px;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-3{
+  background-image:url(https://bicoltourism.ph/wp-content/uploads/2020/12/Mayon-Volcano-924x616-1.jpg);
+   background-size:100%;
+  height:540px;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  padding:200px 355px;
+  color:white;
+  font-size: 60px;
+  text-shadow:0px 0px 10px white;
+  text-align:center;
+  margin:auto;
+}
+.icon{
+  margin-top:-230px;
+  margin:50%;
+  margin-top:-200px;
+}
+a{
+  color:white;
+  text-decoration:none;
+ 
+}

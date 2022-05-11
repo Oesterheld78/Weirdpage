@@ -1,0 +1,90 @@
+html {
+  position: relative;
+  background: url("https://download.unsplash.com/12/palm-trees.JPG"), url("http://unsigneddesign.com/1/LT_SubtleGrungeTextures/Full/LT_SubtleGrunge_03.jpg"), radial-gradient(circle at 2.01% 1.95%, #83a4d4, transparent 100%), radial-gradient(circle at 97.99% 81.05%, #b6fbff, transparent 100%), radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+html:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-animation-name: gradOpacity;
+          animation-name: gradOpacity;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background: radial-gradient(circle at 2.01% 18.05%, #ED4264, transparent 100%), radial-gradient(circle at 97.99% 95.04%, #FFEDBC, transparent 100%), radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%);
+  mix-blend-mode: overlay;
+  opacity: 0;
+  z-index: 0;
+}
+
+h1 {
+  position: relative;
+  z-index: 100;
+  margin-left: 20px;
+  margin-top: 20vh;
+  text-align: left;
+  font-family: "pacifico";
+  font-size: 100px;
+  color: white;
+  text-shadow: 0 1px #FFCD70, -1px 0 #FC4A6E, -1px 2px #FFCD70, -2px 1px #FC4A6E, -2px 3px #FFCD70, -3px 2px #FC4A6E, -3px 4px #FFCD70, -4px 3px #FC4A6E, -4px 5px #FFCD70, -5px 4px #FC4A6E, -5px 6px #FFCD70, -6px 5px #FC4A6E, -6px 7px #FFCD70, -7px 6px #FC4A6E, -7px 8px #FFCD70, -8px 7px #FC4A6E;
+  mix-blend-mode: luminosity;
+}
+h1 span {
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+  text-shadow: none;
+  font-weight: 300;
+  width: 50%;
+  max-width: 400px;
+  text-align: left;
+  font-size: 35%;
+  display: block;
+  mix-blend-mode: luminosity;
+  border-top: 2px solid white;
+  padding-top: 5px;
+}
+
+.bottom {
+  margin-top: 30px;
+}
+
+.author {
+  border-top: none;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+@-webkit-keyframes gradOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes gradOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}

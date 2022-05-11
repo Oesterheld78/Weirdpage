@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700|Roboto:400,700');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    background: #43cea2;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    font-family: 'Roboto', sans-serif;
+
+}s
+
+
+#feature {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("http://getnajmul.com/theme/trabble/images/bgimage/travlec.jpg") no-repeat center center;
+  background-size:cover
+}
+
+.section-desc {
+  max-width:750px;
+  margin: 0 auto;
+}
+
+.single-travel {
+    background: rgb(212, 27, 212) none repeat scroll 0 0;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+
+.single-travel .travel-number {
+    float: left;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+
+.single-travel .travel-number span {
+    color: #37b721;
+    font-weight: 500;
+    font-size: 33px;
+}
+.media-middle {
+    vertical-align: middle;
+}
+
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-left, .media > .pull-left {
+    padding-right: 10px;
+}
+
+.single-travel .travel-content h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.single-travel .travel-content p {
+    margin: 0;
+    width: 100%;
+    line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
